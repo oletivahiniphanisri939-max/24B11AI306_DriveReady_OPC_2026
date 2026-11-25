@@ -52,7 +52,4 @@ The Groq API key is stored securely using Google Colab Secrets and is not includ
 ## Conclusion
 Successfully developed and tested a basic AI-powered customer support assistant for ReCraft using Python, LangChain, and Groq.
 
----
-**Program:** DriveReady OPC 2026  
-**Task:** Day 1 – AI Assistant  
-**Institution:** Aditya University
+
