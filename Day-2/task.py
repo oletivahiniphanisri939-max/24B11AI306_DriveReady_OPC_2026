@@ -56,15 +56,24 @@ def classify_message(message: str) -> str:
     """Classify a customer message using few-shot examples."""
 
     examples = [
-        {"role": "system", "content":
-         "Classify messages as product_idea, how_to or other. "
-         "Return only the category."},
-        {"role": "user", "content": "Give me recycling ideas"},
-        {"role": "assistant", "content": "product_idea"},
-        {"role": "user", "content": "How to recycle paper?"},
-        {"role": "assistant", "content": "how_to"},
-        {"role": "user", "content": message}
-    ]
+    {"role": "system", "content":
+     "Classify messages as product_idea, how_to or other. "
+     "Return only the category."},
+
+    {"role": "user", "content": "Ideas for plastic bottles"},
+    {"role": "assistant", "content": "product_idea"},
+
+    {"role": "user", "content": "Give me recycling ideas"},
+    {"role": "assistant", "content": "product_idea"},
+
+    {"role": "user", "content": "How to recycle paper?"},
+    {"role": "assistant", "content": "how_to"},
+
+    {"role": "user", "content": "Hello, how are you?"},
+    {"role": "assistant", "content": "other"},
+
+    {"role": "user", "content": message}
+]
 
     response = client.chat.completions.create(
         model=MODEL,
