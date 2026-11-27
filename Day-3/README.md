@@ -6,7 +6,7 @@ ReCraft AI is an AI-powered recycling and upcycling assistant that helps users d
 
 The Day 3 task focuses on prompt engineering, chatbot testing, prompt improvement, temperature experimentation, business task classification, and Python functions.
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Customize a SYSTEM prompt for ReCraft AI.
 - Create and execute 10 customer test cases.
@@ -32,7 +32,7 @@ Created a customized SYSTEM prompt for ReCraft AI to provide:
 - Relevant suggestions based on waste materials.
 - Safety warnings whenever necessary.
 
-## 📊 Task 2 – Customer Testing
+##  Task 2 – Customer Testing
 
 Created `tests.csv` containing 10 customer questions and their expected keywords.
 
@@ -76,7 +76,7 @@ Set the LLM temperature to `1.0` and executed the same 10 test cases twice.
 | Look up predefined reuse ideas for a material | Plain Code |
 | Understand user goals, choose suitable tools, and guide a recycling task | Agent |
 
-## 🐍 Python Functions
+## Python Functions
 
 Created two Python functions using type hints and docstrings:
 
@@ -85,7 +85,7 @@ Created two Python functions using type hints and docstrings:
 
 These functions demonstrate reusable Python code and basic safety checking.
 
-## 📁 Project Files
+##  Project Files
 
 | File | Description |
 |---|---|
@@ -93,7 +93,7 @@ These functions demonstrate reusable Python code and basic safety checking.
 | `tests.csv` | Customer test questions and expected keywords |
 | `README.md` | Day 3 project documentation |
 
-## ✅ Conclusion
+##  Conclusion
 
 Successfully completed Day 3 activities by customizing and improving prompts, evaluating chatbot responses, experimenting with LLM temperature, classifying business tasks, and implementing Python functions.
 
